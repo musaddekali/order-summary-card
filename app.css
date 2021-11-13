@@ -53,8 +53,10 @@ h5 {
 .wrapper {
   width: 100%;
   min-height: 100vh;
+  padding: 100px 0;
   color: var(--light-blue);
   background: var(--pale-blue) url("./images/pattern-background-desktop.svg") no-repeat top center/100%;
+  background-attachment: fixed;
   display: grid;
   place-items: center;
 }
